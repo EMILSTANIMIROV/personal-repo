@@ -1,0 +1,14 @@
+
+public class HashCodeAndEquals {
+
+	public static void main(String[] args) {
+		String ivan = new String("Ivan");
+		String ivan2 = new String("Ivan");
+		
+		//String ivan2 = "Ivan";
+		System.out.println(ivan==ivan2);	
+		
+		ivan2 = ivan;	
+		System.out.println(ivan==ivan2);
+	}
+}
